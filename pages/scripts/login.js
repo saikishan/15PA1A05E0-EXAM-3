@@ -13,7 +13,7 @@ $(document).ready(()=>{
             data=JSON.parse(data)
             console.log(data)
             if(data.auth){
-                window.localStorage.setItem("olxwebcookie",data.cookie);
+                window.sessionStorage.setItem("olxwebcookie",data.cookie);
                 console.log(window.sessionStorage.getItem("olxwebcookie"))
                 console.log("the add.php")
                 window.location.replace("add.php")
