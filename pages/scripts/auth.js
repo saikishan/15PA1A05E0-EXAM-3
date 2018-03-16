@@ -6,8 +6,8 @@ $(document).ready(()=>{
         }
     }
     else{
-        if(!window.location.pathname=='/pages/app.php'){
-            window.location.replace("app.php");
+        if(window.location.pathname=='/pages/login.php'){
+            window.location.replace("add.php");
         }
     }
 })
